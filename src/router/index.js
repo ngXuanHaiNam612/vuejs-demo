@@ -1,6 +1,8 @@
 import MainLayout from '@/layouts/MainLayout.vue'
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
+import Form from '@/views/Form.vue'
+
 import { createRouter, createWebHistory } from 'vue-router'
 
 
@@ -21,6 +23,11 @@ const router = createRouter({
           path: '/about',
           name: 'about',
           component: About
+        },
+        {
+          path: '/form',
+          name: 'form',
+          component: Form
         }
 
       ]
